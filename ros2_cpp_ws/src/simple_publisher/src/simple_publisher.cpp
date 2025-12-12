@@ -1,4 +1,4 @@
-#include "cpp_examples/simple_publisher.hpp"
+#include "simple_publisher/simple_publisher.hpp"
 
 SimplePublisher::SimplePublisher(const std::string &name) : Node(name){
     pub_ = create_publisher<std_msgs::msg::String>("hello_world_topic", 10);

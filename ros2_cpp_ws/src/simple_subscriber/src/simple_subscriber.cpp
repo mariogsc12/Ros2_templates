@@ -1,4 +1,4 @@
-#include "cpp_examples/simple_subscriber.hpp"
+#include "simple_subscriber/simple_subscriber.hpp"
 
 SimpleSubscriber::SimpleSubscriber(const std::string &name) : Node(name){
     RCLCPP_INFO_STREAM(get_logger(), "Starting " << name.c_str());
